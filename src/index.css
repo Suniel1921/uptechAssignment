@@ -13,3 +13,9 @@
   margin: auto;
   overflow: hidden;
 }
+
+
+:root{
+  --primaryColor : #4273c1;
+  --secondayColor : #34d6ff;
+}
