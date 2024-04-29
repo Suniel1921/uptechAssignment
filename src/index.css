@@ -17,8 +17,8 @@
 
 
 :root{
-  --primaryColor :#0f1b4f;
-  /* --primaryColor : #4273c1; */
+  /* --primaryColor :#0f1b4f; */
+  --primaryColor : #4273c1;
   --secondayColor : #34d6ff;
   --textWhite : #ffffff;
   --textBlack : #000000;
@@ -27,5 +27,9 @@
 
 
 .heading{
-  font-size: 3rem;
+  font-size: 4rem;
+}
+
+.para{
+  color: var(--primaryColor);
 }

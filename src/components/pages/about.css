@@ -1,0 +1,89 @@
+.about_container{
+    position: relative;
+    background-image: url('/image/p5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.about_container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background-color: var(--textWhite);
+    z-index: 1;
+    opacity: .8;
+}
+
+.about_container .about_section {
+    position: relative; /* Ensure text appears above the overlay */
+    z-index: 2; /* Make sure it's above the overlay */
+}
+
+
+.about_left{
+    width: 50%;
+}
+.about_right{
+    width: 50%;
+}
+
+
+.about_card{
+    background-color: var(--textWhite);
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.444);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 420px;
+    width: 420px;
+    
+}
+
+
+
+.about_card img{
+    height: 400px;
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.about_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about_right h2{
+    color: var(--primaryColor);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about_right .about_para{
+    margin-bottom: 30px;
+}
+
+.horizontal_line{
+    border-top: 3px solid var(--secondayColor);
+    margin-left: 144px;      
+    width: 80px;
+      
+}
+
+
+
+.readMoreBtn{
+    padding: 20px 50px;
+    background-color: var(--secondayColor);
+    border: none;
+    margin-top: 10px;
+    color: var(--textWhite);
+}
+
+

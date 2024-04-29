@@ -1,6 +1,9 @@
 import React from "react";
 import "./../pages/home.css";
 import Navbar from "../Navbar";
+import About from "./About";
+import Services from "./Services";
+import Projects from "./Projects";
 
 const Home = () => {
   return (
@@ -27,8 +30,21 @@ const Home = () => {
         </div>
       </div>
       <div className="yrsExperience">
-            <h2 className="heading">20+ Years of Experience</h2>
-          </div>
+        <h2 className="heading">20+ Years of Experience</h2>
+      </div>
+
+
+
+      {/* --------components----------- */}
+
+      <div className="about_component"><About/></div>
+      <div className="services_component"><Services/></div>
+      <div className="projects_component"><Projects/></div>
+     
+
+
+
+
     </>
   );
 };

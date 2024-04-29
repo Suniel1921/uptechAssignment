@@ -1,0 +1,16 @@
+.project_title{
+    text-align: center;
+    margin-top: 50px;
+    line-height: 40px;
+}
+
+
+.projectList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectList img{
+    width: 134px;
+    height: 134px;
+}

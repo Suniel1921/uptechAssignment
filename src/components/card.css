@@ -1,0 +1,35 @@
+/* .child_card{
+    border: 1px solid var(--secondayColor);
+    height: 220px;
+    width: 400px;
+    margin-top: 34px;
+    padding: 20px;
+
+
+} */
+
+.child_card {
+    position: relative;
+    border: 1px solid var(--secondayColor);
+    height: 220px;
+    width: 400px;
+    margin-top: 34px;
+    padding: 20px;
+}
+
+.child_card::after {
+    content: "";
+    position: absolute;
+    bottom: -7px; /* Adjust distance from the bottom */
+    right: -7px; /* Adjust distance from the right */
+    height: 20px; /* Height of the border */
+    width: 20px; /* Width of the border */
+    border-bottom: 7px solid var(--secondayColor); /* Bottom border */
+    border-right: 7px solid var(--secondayColor); /* Right border */
+}
+
+
+.card_para{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
