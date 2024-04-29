@@ -4,6 +4,8 @@ import Navbar from "../Navbar";
 import About from "./About";
 import Services from "./Services";
 import Projects from "./Projects";
+import Testimonials from "./Testimonials";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
@@ -40,6 +42,9 @@ const Home = () => {
       <div className="about_component"><About/></div>
       <div className="services_component"><Services/></div>
       <div className="projects_component"><Projects/></div>
+      <div className="projects_component"><Testimonials/></div>
+      <div className="projects_component"><Contact/></div>
+
      
 
 

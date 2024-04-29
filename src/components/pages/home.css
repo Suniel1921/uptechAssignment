@@ -1,5 +1,5 @@
 .home_container {
-    position: relative; /* Make sure the container is positioned */
+    position: relative;
     height: 80vh;
     background-image: url('/image/plumbing-home.jpg');
     background-size: cover;
@@ -13,15 +13,15 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--primaryColor); /* Red color with 50% opacity */
-    z-index: 1; /* Ensure it's above the background image */
+    background-color: var(--primaryColor); 
+    z-index: 1; 
     opacity: .8;
 }
 
 
 .home_container .home_section {
-    position: relative; /* Ensure text appears above the overlay */
-    z-index: 2; /* Make sure it's above the overlay */
+    position: relative; 
+    z-index: 2; 
 }
 
 
@@ -40,6 +40,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 65vh;
+    gap: 4rem;
 }
 
 .childText{
@@ -54,10 +56,13 @@
 }
 
 
-.home_right img{
-    /* width: 400px;
-    height: 400px; */
-    width: 100%;
+.home_right img {
+    width: 364px;
+    height: 591px;
+    /* width: 100%; */
+    position: absolute;
+    top: 173px;
+    object-fit: cover;
 }
 
 
@@ -69,3 +74,20 @@
 .yrsExperience h2{
     color: var(--textWhite);
 }
+
+
+
+
+/* ---------------------media queries start--------------------- */
+
+@media screen and (max-widht: 1200px) {
+    .home_right img {
+        top: 76px;
+    }
+    
+}
+
+
+
+
+/* ---------------------media queries end--------------------- */

@@ -1,3 +1,8 @@
+.services_content{
+    margin-top: 54px;
+    line-height: 33px;
+}
+
 .card_container{
     display: flex;
     /* justify-content: center;
