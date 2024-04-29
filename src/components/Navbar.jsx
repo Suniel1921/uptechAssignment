@@ -1,6 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './../components/navbar.css'
+import { BiMenuAltRight } from "react-icons/bi";
+
 
 const Navbar = () => {
   return (
@@ -13,6 +15,7 @@ const Navbar = () => {
         <li><NavLink to={'/services'}>Services</NavLink></li>
         <li><NavLink to={'/contact'}>Contact</NavLink></li>
       </ul>
+      <div className='hamburgerMenu'><BiMenuAltRight/></div>
     </div>
   )
 }

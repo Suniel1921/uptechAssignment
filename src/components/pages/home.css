@@ -80,12 +80,32 @@
 
 /* ---------------------media queries start--------------------- */
 
-@media screen and (max-widht: 1200px) {
+@media screen and (max-width: 1200px) {
     .home_right img {
         top: 76px;
+        background-color: red;
     }
-    
 }
+@media screen and (max-width: 1020px) {
+    .home_heading {
+        font-size: 4rem;
+    }
+}@media screen and (max-width: 950px) {
+    .home_right img {
+        display: none;
+    }
+    /* .home_content{
+        flex-direction: column;
+    } */
+
+    .home_left{
+        width: 100%;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+}
+
 
 
 

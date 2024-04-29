@@ -19,3 +19,26 @@
     text-decoration: none;
     color: var(--textWhite);
 }
+
+.hamburgerMenu{
+    display: none;
+}
+
+
+
+/* ---------------------media queries start--------------------- */
+
+@media screen and (max-width: 900px){
+    .hamburgerMenu{
+        display: block;
+        font-size: 34px;
+        color: var(--textWhite);
+    }
+    .navlinks{
+        display: none;
+    }
+
+}
+
+
+/* ---------------------media queries end--------------------- */
