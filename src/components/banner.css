@@ -1,0 +1,16 @@
+.bannerContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: var(--secondayColor);
+}
+
+.time_Email{
+    display: flex;
+}
+
+.social_icons{
+    display: flex;
+    gap: 1rem;
+}

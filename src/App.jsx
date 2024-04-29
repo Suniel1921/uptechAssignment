@@ -6,11 +6,13 @@ import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Services from './components/pages/Services';
 import Contact from './components/pages/Contact';
+import Banner from './components/Banner';
 
 const App = () => {
   return (
     <div>
       <Router>
+          <Banner/>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />

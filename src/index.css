@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -16,6 +17,15 @@
 
 
 :root{
-  --primaryColor : #4273c1;
+  --primaryColor :#0f1b4f;
+  /* --primaryColor : #4273c1; */
   --secondayColor : #34d6ff;
+  --textWhite : #ffffff;
+  --textBlack : #000000;
+  
+}
+
+
+.heading{
+  font-size: 3rem;
 }

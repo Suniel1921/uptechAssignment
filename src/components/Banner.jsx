@@ -1,4 +1,5 @@
 import React from 'react'
+import './../components/banner.css'
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaSquareWhatsapp } from "react-icons/fa6";

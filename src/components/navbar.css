@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 24px;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.navlinks li{
+    list-style: none;
+}.navlinks li a{
+    text-decoration: none;
+    color: var(--textWhite);
+}
