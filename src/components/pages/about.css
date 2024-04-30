@@ -87,8 +87,40 @@
 }
 
 
+.navbar_components{
+    background-color: var(--primaryColor);
+    color: var(--textWhite);
+}
+
+
 
 
 
 /* ---------------------media queries start--------------------- */
+
+@media screen and (max-width:950px) {
+    .about_content{
+        flex-direction: column;
+        margin-bottom: 34px;
+    }
+    .about_left, .about_right{
+        width: 100%;
+    }
+
+
+
+    .about_card,.about_card img{
+       
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    
+    
+
+
+    
+}
+
 /* ---------------------media queries end--------------------- */

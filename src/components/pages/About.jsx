@@ -1,10 +1,12 @@
 import React from "react";
 import "./about.css";
 import { FaArrowRight } from "react-icons/fa6";
+import Navbar from "../Navbar";
 
 const About = () => {
   return (
     <>
+  <div className="navbar_components"> <Navbar/></div>
       <div className="about_container">
         <div className="about_section">
           <div className="container">

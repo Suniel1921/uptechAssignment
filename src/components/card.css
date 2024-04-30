@@ -11,7 +11,7 @@
 .child_card {
     position: relative;
     border: 1px solid var(--secondayColor);
-    height: 220px;
+    height: 296px;
     width: 400px;
     margin-top: 34px;
     padding: 20px;
@@ -33,3 +33,22 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
+
+
+
+
+/* -----------------------------------media queries start----------------------------------- */
+
+
+@media screen and (max-width: 600px) {
+    .child_card {
+        height: 304px;
+        width: 333px;
+    }
+    
+    
+}
+
+/* -----------------------------------media queries end----------------------------------- */

@@ -12,9 +12,7 @@ const Home = () => {
     <>
       <div className="home_container">
         <div className="home_section">
-          <div className="">
-            <Navbar />
-          </div>
+          <div><Navbar /></div>
           <div className="container">
             <div className="home_content">
               <div className="home_left">

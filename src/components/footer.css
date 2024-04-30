@@ -1,0 +1,40 @@
+.footer_container{
+    background-color: var(--primaryColor);
+    color: white;
+    padding: 44px;
+}
+
+.footer_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 34px;
+}
+
+
+.footer_links{
+    list-style: none;
+    margin: 14px;
+}
+
+.footer_links a{
+    color: var(--textWhite);
+    text-decoration: none;
+   
+  
+}
+
+
+
+
+/* ---------------------media queries start---------------------- */
+@media screen and (max-width: 600px) {
+    .footer_section{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    
+}
+
+/* ---------------------media queries end---------------------- */

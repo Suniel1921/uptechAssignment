@@ -13,12 +13,6 @@
 
 
 
-  
-
-
-
-
-
 
 /* 
 .card_container{
@@ -37,3 +31,11 @@
 .card:nth-child(4) {
     width: 500px;
 } */
+
+
+
+
+@media screen and (max-width: 600px) {
+    
+    
+}

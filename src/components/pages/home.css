@@ -76,6 +76,11 @@
 }
 
 
+.heading{
+    font-size: 4rem;
+  }
+
+
 
 
 /* ---------------------media queries start--------------------- */
@@ -104,6 +109,19 @@
     .heading{
         font-size: 2rem;
     }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .home_heading {
+        font-size: 30px;
+    }
+
+    .heading{
+        font-size: 20px;
+    }
+    
 }
 
 
